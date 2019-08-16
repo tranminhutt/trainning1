@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	height: 800px;
+	width: 1000px;
+	border:1px solid red;	
+	margin: auto;
+}
+.header{
+	width: 100%;
+	height: 120px;
+	border: 1px solid red;
+
+}
+.menu{
+	width: 100%;
+	height: 30px;
+	border: 1px solid #003;
+
+}
+.menu ul{
+	width: 100%;
+	height: 30px;
+	list-style: none;
+}
+.menu ul li{
+	line-height: 30px;
+	margin-left: 10px;
+	float: left;
+
+}
+.menu ul li a{
+	color: #000;
+	text-decoration: none;
+}
+.menu a:hover{
+	text-decoration: underline;
+}
+.content{
+	width: 100%;
+	height: 600px;
+	border: 1px solid blue;
+
+}
+.left{
+	width: 200px;
+	height: 600px;
+	border: 1px solid #000;
+	float: left;
+}
+.danhsachsanpham ul{
+	width: 100%;
+	height: auto;
+	list-style: none;
+}
+.danhsachsanpham ul li{
+	margin-left: 10px;
+	margin: 5px;
+}
+.danhsachsanpham a{
+	text-decoration: none;
+	color: #000;
+}
+.danhsachsanpham a:hover{
+	text-decoration: underline;
+}
+.right{
+	width: 790px;
+	height: 600px;
+	border: 1px solid #000;
+	float: right;
+}
+.sanphamall ul{
+	width: 100%;
+	list-style: none;
+}
+.sanphamall ul li{
+	width: 150px;
+	height: auto;
+	border: 1px solid #000;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+}
+.sanphamall ul li a{
+	text-decoration: none;
+}
+.sanphamall a:hover{
+	text-decoration: underline;
+}
+.clear{
+	clear: both;
+}
+.footer{
+	width: 100%;
+	height: 45px;
+	border: 1px solid yellow;
+
+
+}
